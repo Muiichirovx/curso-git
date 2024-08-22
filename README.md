@@ -45,3 +45,6 @@ git add .
 // Importante!
 O comando git add (Nome do arquivo) é usado somente para o arquivo
 O comando git add . é usado para todos os arquivos
+
+5. Commit:
+
