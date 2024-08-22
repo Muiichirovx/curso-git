@@ -1,11 +1,3 @@
-git commit 
-git add .
-git log --pretty=oneline
-git brach
-git remote
-
-
-
 Como usar o Git no terminal:
 
 1. Criação
@@ -47,4 +39,58 @@ O comando git add (Nome do arquivo) é usado somente para o arquivo
 O comando git add . é usado para todos os arquivos
 
 5. Commit:
+
+O comando commit serve para salvar os arquivos que foram comitados
+
+ex. historico{
+    1 commit: alterei o arquivo .py
+    2 commit: add um arquivo .js
+    3 commit: deletei o arquivo .html
+    ...
+}
+
+A partir desses commits que foram salvos no git, podemos escolher qual commit enviar para o github
+
+Use o comando no terminal:
+
+git commit -m "Mensagem"
+
+6. Log:
+
+O comando log é usado para visualizar o historico de commits
+
+Use o comando no terminal:
+
+git log
+git log --pretty=oneline (é mais simples de visualizar os commits)
+
+7. Diff:
+
+O comando diff serve para verificar as mudanças
+
+Use o comando no terminal:
+
+git diff
+
+(Dê enter ate aparecer END no terminal. Após use : + q)
+
+8. Restore:
+
+Restaurar caminhos especificados na árvore de trabalho
+
+// Importante!
+
+git restore --staged (nome do arquivo)
+
+Vai "ocultar" o arquivo para não ir ao commit
+
+9. Branch:
+
+O comando branch serve para verificar em qual branch estamos
+
+git branch
+
+Para renomear a branch, use o comando:
+
+git branch -M (novo nome)
 
