@@ -1,4 +1,4 @@
-Como usar o Git no terminal:
+# Como usar o Git no terminal:
 
 1. Criação
 Assim que você criar o seu arquivo(py/js/html...)
@@ -54,6 +54,7 @@ A partir desses commits que foram salvos no git, podemos escolher qual commit en
 Use o comando no terminal:
 
 git commit -m "Mensagem"
+git commit -am "Mensagem" - add + commit
 
 6. Log:
 
