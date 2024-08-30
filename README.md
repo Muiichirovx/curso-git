@@ -95,3 +95,8 @@ Para renomear a branch, use o comando:
 
 git branch -M (novo nome)
 
+10. Blame
+
+git blame é usado para expor as ultimas alterações do arquivo
+
+git blame (nome do arquivo.extenção)

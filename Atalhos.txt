@@ -1,1 +1,21 @@
 Atalhos
+
+Ctrl + N = Criar um novo arquivo
+Ctrl + O = abre um arquivo (Open File)
+Ctrl + L = Seleciona a linha
+Ctrl + F = Barra de busca
+Ctrl + H = Substituir
+Shift + Alt + Seta pra baixo = Duplicar linha
+Alt + Seta pra baixo/ cima = Mover linha para baixo/ cima
+
+Alt + (Num) = Alterando entre abas
+Ctrl + Page up/ Page Down = Alterando entre abas
+
+-----------------------------
+
+Ver os commits:
+
+Clique com o botão direto na parte em branco do Explorer
+Clique em Git View File History
+
+
